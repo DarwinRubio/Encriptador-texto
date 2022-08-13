@@ -1,0 +1,355 @@
+/*
+ *   HOJA DE ESTILOS DEL ARCHIVO INDEX DEL ENCRIPTADOR DE TEXTO
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#header-principal {
+        background: #333;
+        color: white;
+        height: 50px;        
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: fixed;
+        text-align: center;
+        border-radius: 20px / 10px;
+        border-radius: 10px 10px 50px 50px;
+        border: 1px solid #999999;  
+        }	
+        #header-principal a {
+        color: rgb(255, 255, 255);      
+        }
+/*
+ * Logo
+ */
+ #logo-alura-header {
+	float: left;
+	padding: 5px 0 0 10px;
+	text-decoration: none;
+    width: 30%;  
+    }
+
+    .logo-alura-header {
+        width: 80px;
+        height: 20px;
+        }
+
+        #logo-alura-header:hover {
+            background-color: #08dbf6;		
+            border-radius: 10px 10px 10px 50px;       
+            height: 45px;       
+            }	
+        
+            #logo-alura-header .site-desc {
+                display: block;
+                font-weight: 300;
+                font-size: 20px;
+                color: rgb(134, 132, 132);
+                height: 35px;                
+                }
+
+                #logo-alura-header .site-desc:hover {
+                    display: block;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: rgb(35, 29, 29);
+                    height: 35px;
+                    }
+/*
+ * Titulo
+ */
+#titulo-principal{
+    margin: 5px 0 0 60px;
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+    font: bold 1.15em verdana, sans-serif;
+    width: 20%;   
+    }
+
+    #titulo-principal:hover{
+        background: #F3F5FC;
+        color: #333;
+        border-radius: 5px 5px 50px 50px;
+        }
+
+/*
+ * Navegación
+ */
+ nav {
+	float: right;
+    width: 40%;
+    }
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	    }	
+
+		nav ul li {
+			display: inline-block;
+			line-height: 50px;
+		    }
+
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			    }	
+
+				nav ul li a:hover {
+                    background-color: #08dbf6;		
+                    border-radius: 10px;
+                    font-weight: bold;       
+				    }
+/************ 
+//------------------------------
+// MARCO DEL CONTENIDO
+//------------------------------
+************/
+#contenido-principal {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding-top: 5px;  
+    }
+
+	#contenido-principal header, #contenido-principal .contenido {
+	    margin: 30px auto;
+	    }
+
+    
+/************
+//-----------------------------
+// CONTENIDO PRINCIPAL DE LA PÁGINA
+//-----------------------------
+************/
+.container{
+    position: relative;
+    padding-left: 428px;
+    padding-top: 260px;
+    margin: auto;
+    width: 960px;
+    height: 520px;
+    padding: 5px;
+    background: #F3F5FC;
+    }
+
+    .logo-alura{
+        width: 120px;
+        height: 48px;
+        top: 40px;
+        left: 40px;
+        gap: 40px;
+        float: left;
+        }
+
+/************
+//-----------------------------
+// CAJA IZQUIERDA
+//-----------------------------
+************/
+
+.contenedor-izq{
+    float: left;
+    width: 60%;
+    height: 60%;
+    border-radius: 24px;
+    }
+
+    .logoImg{    
+        margin-top: 10%;
+        margin-left: 5%;
+        float: inherit;
+        }
+
+        .text-input{
+            float: left;
+            margin-left: 0%;
+            margin-top: 17%;
+            width: 80%;
+            height: 70%;
+            color: #0A3871;
+            font-size: 20px;
+            border:none;
+            outline: none;
+            background: #F3F5FC;
+                }
+
+/************
+//-----------------------------
+// CAJA DERECHA
+//-----------------------------
+************/
+
+.contenedor-der{ 
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 660px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px; 
+}
+
+#imgDer{    
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: 70%;
+}
+
+
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    font-size: 24px;
+    font-weight: bolder;
+    }
+
+#texto2{
+    float: left;
+    margin-left: 5%;
+    color:#0A3871;
+    width: 90%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    }
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 1%;
+    padding: 10px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    font-weight: bold;
+    border:none;
+    transition: 1s all;
+    cursor:pointer;
+    }
+
+    #copiar:hover{
+        background: rgb(55, 235, 220);
+        transform: scale(1.2);
+        color:white;
+        font-weight: bold;
+    
+    }
+
+/************
+//-----------------------------
+// BOTONES
+//-----------------------------
+************/
+.left-botton{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 100px;
+    }
+
+#btn-encriptar{
+    padding: 15px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #F3F5FC;
+    font-weight: bold;
+    border:none;
+    transition: 1s all;
+    cursor:pointer;
+    }
+
+    #btn-encriptar:hover{
+        background: darkorange;
+        transform: scale(1.2);
+        }
+
+#btn-desencriptar{
+    padding: 15px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    font-weight: bold;
+    border:none;
+    transition: 1s all;
+    cursor:pointer;
+    }
+
+#btn-desencriptar:hover{
+    background: rgb(85, 255, 0);
+    transform: scale(1.2);
+    font-weight: bold;
+    }
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+    border-radius: 5px 5px 0 0;   
+    }
+	#main-footer p {
+		margin: 0;
+	}	
+	#main-footer a {
+		color: white;
+	}    
+
+@media screen and (max-width:980px){
+
+    #header-principal{
+            max-width: 90%;
+        }
+        nav{
+            position: absolute;
+        }
+        .contenido, .container, .contenedor-izq, .contenedor-der{
+            width: auto;
+        }
+        .main-footer{
+            width: 100%;
+        }
+        .contenedor-der{
+            padding-top: 100px;
+            top: 570px;
+            left: 8px;
+        }
+        #main-footer{
+            padding-bottom: 10px;
+            margin-top: 750px;
+        }    
+    }
+   
+  
+  
+    
+  
+    
